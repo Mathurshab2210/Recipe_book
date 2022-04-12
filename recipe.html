@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/cupertino/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="recipe.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    
+     <center><div class="head"><h1 data-aos="fade-down-left" class="animate-charcter">Recipe Book</h1><hr></div></center><br>
+    <div class="container">
+        <div class="sub">
+            <div class="box" id="b1" data-aos="zoom-out-down"><p>Chicken & Veggie Stir-fry</p></div>
+            <div class="box"  id="b2" data-aos="zoom-out-right" ><p>Kdhai paneer</p></div>
+            <div class="box"  id="b3" data-aos="fade-down"
+            data-aos-easing="linear"><p>French Fries</p></div>
+            <div class="box" data-aos="zoom-in-down" id="b4">Burger</div>
+            <div class="box"  id="b5" data-aos="zoom-out-down">POha</div>
+            <div class="box" data-aos="fade-up-right" id="b6">Lassi</div>
+          
+           
+            </div>
+        <div class="sub-2" id="display" >
+            <p>Click on recipie Name to diplsay it</p>
+
+        </div>
+    </div>
+    <br><br>
+    <script>
+        $(function(){
+            $("#b1").click(function(){
+                $("#display").load("ajax_data/data.txt")
+                window.scrollBy(0, 1000);
+            })
+            $("#b2").click(function(){
+                $("#display").load("ajax_data/paneer.txt")
+                window.scrollBy(0, 800);
+            })
+            $("#b3").click(function(){
+                $("#display").load("ajax_data/ff.txt")
+                window.scrollBy(0, 600);
+            })
+            $("#b4").click(function(){
+                $("#display").load("ajax_data/br.txt")
+                window.scrollBy(0, 600);
+            })
+          
+            $("#b5").click(function(){
+                $("#display").load("ajax_data/p.txt")
+                window.scrollBy(0, 600);
+            })
+            $("#b6").click(function(){
+                $("#display").load("ajax_data/l.txt")
+                window.scrollBy(0, 600);
+            })
+          
+          
+        
+        })
+    </script>
+    <script>
+        
+      </script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+    AOS.init({
+      duration: 1500,
+      once: false,
+    });
+  </script>
+</body>

@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+}
+.box{
+    width: 95%;
+    height: 105px;
+    border:3px solid white;
+    margin: 10px;
+    transition: .5s ease;
+    text-align:center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 12px;
+    padding-top: 19px;
+    cursor: pointer;
+}
+li{
+    font-size: 20px;
+}
+.box:hover{
+    box-shadow: 0 0 0 10px white;
+    transition: .5s ease;
+    border-radius: 15px;
+    padding-top: 9px;
+    font-size: 32px;
+    font-family: cursive;
+    font-weight: bold;
+    color:whitesmoke;
+    
+}
+#b1:hover{
+    background-image: url("c1.jpg");
+}
+#b2:hover{
+    background-image: url("kp2.jpg");
+}
+#b3:hover{
+    background-image: url("ff1.jpg");
+}
+#b4:hover{
+    background-image: url("br1.jpg");
+}
+#b5:hover{
+    background-image: url("p1.jpg");
+}
+#b6:hover{
+    background-image: url("l1.jpg");
+}
+#para{
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: bold;
+}
+#i1{
+    background-image: url("c1.jpg"), no-repeat;
+    width: auto;
+    
+
+}
+#i2 img{
+    background-image: url("kp1.jpg"), no-repeat;
+    width: 35%;
+    height: 40%;
+    border-radius: 25px;
+    border:3px solid rebeccapurple
+    
+
+}
+#i3 img{
+    background-image: url("ff1.jpg"), no-repeat;
+   
+    border-radius: 25px;
+    border:3px solid rebeccapurple
+    
+
+}
+#i5 img{
+    background-image: url("p1.jpg"), no-repeat;
+   
+    border-radius: 25px;
+    border:3px solid rebeccapurple
+    
+
+}
+.sub-2{
+    width:75%;
+    background-color: beige;
+    text-align: center;
+    border-radius: 15px;
+    border: ridge 5px black;
+}
+.sub-2>p{
+    margin-top: 9px;
+}
+#clr{
+ margin-left: 90%;
+ width: 105px;
+ color: white;
+ background: linear-gradient(-45deg, #ee7752, #e73c7e,blue,white);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+height: 33px;
+font-weight: bold;
+border-radius: 12px;
+}
+hr{
+    width: 55%;
+    margin:0 auto;
+    height:7px;
+    background-color:aliceblue;
+    border-radius: 20px;
+}
+#src{
+   margin-left: 25px;
+    border-radius: 12px;
+    height: 30px;
+    margin-top: 8px;
+
+    
+}
+h2{
+    display: none;
+}
+
+#p1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+@media(max-width:940px){
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .sub{
+        width:95vw;
+        margin:0 auto
+
+    }
+    .sub-2{
+        margin:0 auto;
+        width: 93%;
+    }
+    
+    #hr{
+        width: 95vw;
+    }
+}
+@media(max-width:370px){
+   
+    #hr{
+        width:99vw;
+    }
+    .animate-charcter{
+        display: none;
+    }
+    .box{
+        margin: 0 auto;
+        width:75%;
+        margin-bottom: 6px;
+    }
+    #src{
+        margin-left: 24%;
+        margin-bottom: 9px;
+        margin-top: 5px;
+        border-radius: 12px;
+        height: 30px;
+    }
+    h2{
+        display: block;
+        text-align: center;
+    }
+    .box:hover{
+        font-size: 25px;
+    }
+   
+}
+body {
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+/* height: 100vh; */
+}
+
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    whitesmoke 0%,
+    #c3b1d6 29%,
+    #722c43 67%,
+    purple 100%
+    
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 40px;
+     
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

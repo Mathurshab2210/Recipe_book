@@ -1,0 +1,10 @@
+<p id="p1">Chicken & Veggie Stir-fry</p>
+<br><ol id="list">
+<li>Dry roast spices mentioned for garam masala on a low flame until aromatic. Cool completely and make a fine powder in a blender. you can skip this if you want to use a ready masala powder.</li>
+<li>Powder cashews finely in a blender. Set aside in a plate. coarsely crush onion in a blender.</li>
+<li>Marinate with coarsely crushed onion, ghee, red chili powder, salt, turmeric , lemon juice, ginger garlic paste, garam masala powder, 2 tbsps. water.keep it aside for 15 minutes.</li>
+<li>Cook it till soft and tender in a low to medium flame, if needed you can add few tbsps. of water while cooking if the chicken doesn’t release enough moisture. When the chicken is cooked well, off the stove.</li>
+<li>Pour oil to a wide pan and heat. Then add sliced chilies and curry leaves fry till leaves turn crisp.</li>
+<li>Add chicken along with the left over water if any and begin to cook till all the water evaporates .</li>
+<li>Sprinkle cashew powder and pepper powder evenly all over. continue to fry till you get a nice aroma of the masala and cashews. takes about 3 to 4 minutes.Chicken must look dry with all the masala coated over it.</li></ol> <br><br>
+<div id="i1"><img src="c1.jpg"></div>
